@@ -81,7 +81,7 @@
 									</header>
 									
 									<div class="ex1"><p style ="color: black";>
- <iframe src="https://d12619ekhlva18.cloudfront.net/FT+Pre+MBA/Business+Math+-+Afeche/Course+Overview1+Course+overview.mp4" width="100%" height="350px;"></iframe>	<br> </br>								
+ <iframe style="padding-bottom: 5px;" src="https://d12619ekhlva18.cloudfront.net/FT+Pre+MBA/Business+Math+-+Afeche/Course+Overview1+Course+overview.mp4" width="100%" height="350px;"></iframe>	<br> </br>								
 The course covers selected methods and concepts that form the building blocks for the quantitative analyses in your first-year courses in economics, finance, marketing, operations management and statistics. The course has two parts: “Math” and “Probability”. The “Math” part reviews how to represent, analyze, graph, and interpret common mathematical functions and equations. The “Probability” part reviews basic probability concepts, rules of probabilities, and the properties of probability distributions for discrete random variables.
 
 
@@ -162,9 +162,20 @@ The course covers selected methods and concepts that form the building blocks fo
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
-   
+		<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
+
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
 
 
 
